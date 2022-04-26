@@ -151,47 +151,236 @@
       </div>
       <!--/header-bottom-->
     </header>
-    <section id="form">
-      <!---from-->
+
+    <section id="cart_items">
       <div class="container">
+        <div class="breadcrumbs">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Carrinho de Compras</li>
+          </ol>
+        </div>
+        <div class="table-responsive cart_info">
+          <table class="table table-condensed">
+            <thead>
+              <tr class="cart_menu">
+                <td class="imagem">Item</td>
+                <td class="description">Descrição</td>
+                <td class="price">Valor</td>
+                <td class="quantity">Quantidade</td>
+                <td class="total">Total</td>
+                <td></td>
+              </tr>
+            </thead>
+            <tbody id="dados">
+              <tr>
+                <td>
+                  <a href="image/cart/one.png"></a>
+                </td>
+                <td class="cart_description">
+                  <h4><a href="">Colorblock Scuba</a></h4>
+                  <p>Web ID: 1089772</p>
+                </td>
+                <td class="cart_price">
+                  <p>$59</p>
+                </td>
+                <td class="cart_quantity">
+                  <div class="cart_quantity_button">
+                    <a class="cart_quantity_up" href=""> + </a>
+                    <input
+                      class="cart_quantity_input"
+                      type="text"
+                      name="quantity"
+                      value="1"
+                      autocomplete="off"
+                      size="2"
+                    />
+                    <a class="cart_quantity_down" href=""> - </a>
+                  </div>
+                </td>
+                <td class="cart_total">
+                  <p class="cart_total_price">$59</p>
+                </td>
+                <td class="cart_delete">
+                  <a class="cart_quantity_delete" href=""
+                    ><i class="fa fa-times"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="image/cart/one.png"></a>
+                </td>
+                <td class="cart_description">
+                  <h4><a href="">Colorblock Scuba</a></h4>
+                  <p>Web ID: 1089772</p>
+                </td>
+                <td class="cart_price">
+                  <p>$59</p>
+                </td>
+                <td class="cart_quantity">
+                  <div class="cart_quantity_button">
+                    <a class="cart_quantity_up" href=""> + </a>
+                    <input
+                      class="cart_quantity_input"
+                      type="text"
+                      name="quantity"
+                      value="1"
+                      autocomplete="off"
+                      size="2"
+                    />
+                    <a class="cart_quantity_down" href=""> - </a>
+                  </div>
+                </td>
+                <td class="cart_total">
+                  <p class="cart_total_price">$59</p>
+                </td>
+                <td class="cart_delete">
+                  <a class="cart_quantity_delete" href=""
+                    ><i class="fa fa-times"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="image/cart/one.png"></a>
+                </td>
+                <td class="cart_description">
+                  <h4><a href="">Colorblock Scuba</a></h4>
+                  <p>Web ID: 1089772</p>
+                </td>
+                <td class="cart_price">
+                  <p>$59</p>
+                </td>
+                <td class="cart_quantity">
+                  <div class="cart_quantity_button">
+                    <a class="cart_quantity_up" href=""> + </a>
+                    <input
+                      class="cart_quantity_input"
+                      type="text"
+                      name="quantity"
+                      value="1"
+                      autocomplete="off"
+                      size="2"
+                    />
+                    <a class="cart_quantity_down" href=""> - </a>
+                  </div>
+                </td>
+                <td class="cart_total">
+                  <p class="cart_total_price">$59</p>
+                </td>
+                <td class="cart_delete">
+                  <a class="cart_quantity_delete" href=""
+                    ><i class="fa fa-times"></i
+                  ></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="image/cart/one.png"></a>
+                </td>
+                <td class="cart_description">
+                  <h4><a href="">Colorblock Scuba</a></h4>
+                  <p>Web ID: 1089772</p>
+                </td>
+                <td class="cart_price">
+                  <p>$59</p>
+                </td>
+                <td class="cart_quantity">
+                  <div class="cart_quantity_button">
+                    <a class="cart_quantity_up" href=""> + </a>
+                    <input
+                      class="cart_quantity_input"
+                      type="text"
+                      name="quantity"
+                      value="1"
+                      autocomplete="off"
+                      size="2"
+                    />
+                    <a class="cart_quantity_down" href=""> - </a>
+                  </div>
+                </td>
+                <td class="cart_total">
+                  <p class="cart_total_price">$59</p>
+                </td>
+                <td class="cart_delete">
+                  <a class="cart_quantity_delete" href=""
+                    ><i class="fa fa-times"></i
+                  ></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="do_action">
+      <div class="container">
+        <div class="heading">
+          <h3>O que você gostaria de fazer depois?</h3>
+          <p>
+            Escolha se você tem um código de desconto ou pontos de recompensa
+            que deseja usar ou gostaria de estimar o custo de entrega.
+          </p>
+        </div>
         <div class="row">
-          <div class="col-sm-4 col-sm-offset-1">
-            <div class="login-form">
-              <!----Login form-->
-              <h2>Faça login na sua conta</h2>
-              <form action="#">
-                <input type="email" placeholder="Endereço de Email" />
-                <input type="password" placeholder="Password" />
-                <span>
-                  <input type="checkbox" class="checkbox" />
-                  Mantenha-me conectado
-                </span>
-                <button type="submit" class="btn btn-default">
-                  Conecta-se
-                </button>
-              </form>
+          <div class="col-sm-6">
+            <div class="chose_area">
+              <ul class="user_option">
+                <li>
+                  <input type="checkbox" />
+                  <label>Usar código de cupom</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>Utilize o voucher de presente</label>
+                </li>
+              </ul>
+              <ul class="user_info">
+                <li class="single_field">
+                  <label>Região/ Estado:</label>
+                  <select>
+                    <option>Minas Gerais</option>
+                    <option>Rio de janeiro</option>
+                    <option>São Paulo</option>
+                    <option>Mato Grosso</option>
+                    <option>Ceára</option>
+                    <option>Alagoas</option>
+                    <option>Pernambuco</option>
+                    <option>Bahia</option>
+                  </select>
+                </li>
+                <li class="single_field zip-field">
+                  <label>Código postal:</label>
+                  <input type="text" />
+                </li>
+              </ul>
+              <a class="btn btn-default update" href="">Obter cotações</a>
+              <a class="btn btn-default check_out" href="">Continuar</a>
             </div>
-            <!----Login form-->
           </div>
-          <div class="col-sm-1">
-            <h2 class="or">OU</h2>
-          </div>
-          <div class="col-sm-4">
-            <div class="signup-form">
-              <h2>Cadastro de novo usário!</h2>
-              <form action="#">
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Endereço de Email" />
-                <input type="password" placeholder="Senha" />
-                <button type="submit" class="btn btn-default">
-                  Inscrever-se
-                </button>
-              </form>
+          <div class="col-sm-6">
+            <div class="total_area">
+              <ul>
+                <li>Subtotal do carrinho <span>$59</span></li>
+                <li>Frete <span>Livre</span></li>
+                <li>Total <span>$61</span></li>
+              </ul>
+              <a class="btn btn-default update" href="">Atualizar</a>
+              <a class="btn btn-default check_out" href=""
+                >Verificação de saída</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!--/#do_action-->
+
     <footer id="footer">
       <!--Footer-->
 
