@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | E-VALPONE</title>
 
-    <link rel="stylesheet" href="/css/bootstrap.min.css" />
-    <link href="/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="/css/prettyPhoto.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/price-range.css" />
-    <link href="/css/animate.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link href="/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
 
+    <link rel="stylesheet" href="/css/price-range.css" />
+    <link href="/css/prettyPhoto.css" rel="stylesheet" />
+    <link href="/css/animate.css" rel="stylesheet" />
     <link href="/css/responsive.css" rel="stylesheet" />
 
     <link rel="shortcut icon" href="image/logopagina.svg" />
@@ -79,7 +79,7 @@
               <div class="shop-menu clearfix pull-right">
                 <ul class="nav navbar-nav">
                   <li>
-                    <a href="account.html"><i class="fa fa-user"></i> Conta</a>
+                    <a href=""><i class="fa fa-user"></i> Conta</a>
                   </li>
                   <li>
                     <a href=""><i class="fa fa-star"></i> Lista de Desejos</a>
@@ -152,123 +152,125 @@
       </div>
       <!--/header-bottom-->
     </header>
-    <!--Contact page-->
-    <div id="contact-page" class="container">
-      <div class="bg">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="title text-center">
-              Entre em contato conosco <strong>...</strong>
-            </h2>
-            <div id="gmap" class="contact-map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14706.011612526841!2d-46.31450735!3d-22.8578737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1649720609246!5m2!1spt-BR!2sbr"
-                width="985"
-                height="385"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
+
+    <section id="cart_items">
+      <div class="container">
+        <div class="breadcrumbs">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Check out</li>
+          </ol>
         </div>
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="contact-form">
-              <h2 class="title text-center">Entra em Contato</h2>
-              <div
-                class="status alert alert-success"
-                style="display: none"
-              ></div>
-              <form
-                id="main-contact-form"
-                class="contact-form row"
-                name="contact-form"
-                method="post"
-              >
-                <div class="form-group col-md-6">
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    required="required"
-                    placeholder="Nome"
-                  />
-                </div>
-                <div class="form-group col-md-6">
-                  <input
-                    type="email"
-                    name="email"
-                    class="form-control"
-                    required="required"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="form-group col-md-12">
-                  <input
-                    type="text"
-                    name="subject"
-                    class="form-control"
-                    required="required"
-                    placeholder="Assunto"
-                  />
-                </div>
-                <div class="form-group col-md-12">
-                  <textarea
-                    name="message"
-                    id="message"
-                    required="required"
-                    class="form-control"
-                    rows="8"
-                    placeholder="Sua mensagem aqui"
-                  ></textarea>
-                </div>
-                <div class="form-group col-md-12">
-                  <input
-                    type="submit"
-                    name="submit"
-                    class="btn btn-primary pull-right"
-                    value="Enviar"
-                  />
-                </div>
-              </form>
+        <!--/breadcrums-->
+
+        <div class="step-one">
+          <h2 class="heading">Step1</h2>
+        </div>
+        <div class="checkout-options">
+          <h3>New User</h3>
+          <p>Checkout options</p>
+          <ul class="nav">
+            <li>
+              <label><input type="checkbox" /> Register Account</label>
+            </li>
+            <li>
+              <label><input type="checkbox" /> Guest Checkout</label>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-times"></i>Cancel</a>
+            </li>
+          </ul>
+        </div>
+        <!--/checkout-options-->
+
+        <div class="register-req">
+          <p>
+            Please use Register And Checkout to easily get access to your order
+            history, or use Checkout as Guest
+          </p>
+        </div>
+        <!--/register-req-->
+
+        <div class="shopper-informations">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="shopper-info">
+                <p>Shopper Information</p>
+                <form>
+                  <input type="text" placeholder="Display Name" />
+                  <input type="text" placeholder="User Name" />
+                  <input type="password" placeholder="Password" />
+                  <input type="password" placeholder="Confirm password" />
+                </form>
+                <a class="btn btn-primary" href="">Get Quotes</a>
+                <a class="btn btn-primary" href="">Continue</a>
+              </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="contact-info">
-              <h2 class="title text-center">Informações de contato</h2>
-              <address>
-                <p>E-VALPONE</p>
-                <p>Rua tal N:354 Apt 3</p>
-                <p>Fatec Bragança Paulisat</p>
-                <p>Celular: +559999999</p>
-                <p>Telefone: +559999999</p>
-                <p>Email: info@volpone.com</p>
-              </address>
-              <div class="social-networks">
-                <h2 class="title text-center">Rede Sociais</h2>
-                <ul>
-                  <li>
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
-                  </li>
-                </ul>
+            <div class="col-sm-5 clearfix">
+              <div class="bill-to">
+                <p>Bill To</p>
+                <div class="form-one">
+                  <form>
+                    <input type="text" placeholder="Company Name" />
+                    <input type="text" placeholder="Email*" />
+                    <input type="text" placeholder="Title" />
+                    <input type="text" placeholder="First Name *" />
+                    <input type="text" placeholder="Middle Name" />
+                    <input type="text" placeholder="Last Name *" />
+                    <input type="text" placeholder="Address 1 *" />
+                    <input type="text" placeholder="Address 2" />
+                  </form>
+                </div>
+                <div class="form-two">
+                  <form>
+                    <input type="text" placeholder="Zip / Postal Code *" />
+                    <select>
+                      <option>-- Country --</option>
+                      <option>United States</option>
+                      <option>Bangladesh</option>
+                      <option>UK</option>
+                      <option>India</option>
+                      <option>Pakistan</option>
+                      <option>Ucrane</option>
+                      <option>Canada</option>
+                      <option>Dubai</option>
+                    </select>
+                    <select>
+                      <option>-- State / Province / Region --</option>
+                      <option>United States</option>
+                      <option>Bangladesh</option>
+                      <option>UK</option>
+                      <option>India</option>
+                      <option>Pakistan</option>
+                      <option>Ucrane</option>
+                      <option>Canada</option>
+                      <option>Dubai</option>
+                    </select>
+                    <input type="password" placeholder="Confirm password" />
+                    <input type="text" placeholder="Phone *" />
+                    <input type="text" placeholder="Mobile Phone" />
+                    <input type="text" placeholder="Fax" />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="order-message">
+                <p>Shipping Order</p>
+                <textarea
+                  name="message"
+                  placeholder="Notes about your order, Special Notes for Delivery"
+                  rows="16"
+                ></textarea>
+                <label
+                  ><input type="checkbox" /> Shipping to bill address</label
+                >
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!--/#contact-page-->
+    </section>
+    <!--/#cart_items-->
 
     <footer id="footer">
       <!--Footer-->
