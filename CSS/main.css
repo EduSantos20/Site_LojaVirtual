@@ -53,7 +53,7 @@ h6 {
 }
 
 .navbar-toggle {
-  background-color: var(---black---);
+  background: var(---black---);
 }
 
 a#scrollUp {
@@ -727,7 +727,7 @@ h2.title {
 }
 
 .choose ul li a {
-  color: #b3afa8;
+  color: var(---black---);
   font-family: var(--title-roboto);
   font-size: 13px;
   padding-left: 0;
@@ -1522,4 +1522,125 @@ textarea {
 }
 .btn:hover {
   background-color: #696763;
+}
+/****Account*****************/
+.step-one {
+  margin-bottom: -10px;
+}
+.register-req,
+.step-one .heading {
+  background: none repeat scroll 0 0 #f0f0e9;
+  color: var(---black---);
+  font-size: 20px;
+  margin-bottom: 35px;
+  padding: 10px 25px;
+  font-family: var(--title-roboto);
+}
+.checkout-options {
+  padding-left: 20px;
+}
+.checkout-options h3 {
+  color: #363432;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-family: var(--title-roboto);
+}
+.checkout-options p {
+  color: #833434;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.checkout-options .nav li {
+  float: left;
+  margin-right: 45px;
+  color: var(--cordomodal---);
+  font-size: 18px;
+  font-family: var(--title-roboto);
+  font-weight: normal;
+}
+.checkout-options .nav label {
+  font-weight: normal;
+}
+.checkout-options .nav li a:hover {
+  background: inherit;
+}
+.checkout-options .nav i {
+  margin-right: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  background: var(--rosa---);
+  color: #fff;
+  font-size: 14px;
+  padding: 2px 3px;
+}
+.register-req {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 15px 20px;
+  margin-top: 35px;
+}
+
+.register-req p {
+  margin-bottom: 0;
+}
+
+.shopper-info p,
+.bill-to p,
+.order-message p {
+  color: var(---black---);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.shopper-info .btn-primary {
+  background: var(--rosa---);
+  border: 0 none;
+  border-radius: 0;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+.shopper-info .btn-primary:hover {
+  background: #858483;
+}
+
+.form-two,
+.form-one {
+  float: left;
+  width: 47%;
+}
+
+.shopper-info > form > input,
+.form-two > form > select,
+.form-two > form > input,
+.form-one > form > input {
+  background: #f0f0e9;
+  border: 0 none;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  font-weight: 300;
+}
+
+.form-two > form > select {
+  padding: 10px 5px;
+}
+
+.form-two {
+  margin-left: 5%;
+}
+
+.order-message textarea {
+  font-size: 12px;
+  height: 335px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+}
+
+.order-message label input {
+  font-weight: 300;
+  color: var(---black---);
+  font-family: var(--title-roboto);
+  margin-left: 10px;
+  font-size: 14px;
 }
